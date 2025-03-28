@@ -76,7 +76,7 @@ def chat_with_openai(prompt):
 ```
 ```py
     
-    radius = float(input("Enter the radius of the cylinder: "))
+radius = float(input("Enter the radius of the cylinder: "))
 height = float(input("Enter the height of the cylinder: "))
 
 prompt = f"What is the volume of a cylinder with a radius of {radius} and a height of {height}?"
